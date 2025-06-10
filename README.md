@@ -48,7 +48,7 @@ pip install -r requirements.txt
 Open the `config.py` file and paste your OpenAI API key:
 
 ```python
-Api_key = "your_openai_api_key_here"
+API_KEY = "your_openai_api_key_here"
 ```
 
 ---
