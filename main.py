@@ -1,5 +1,5 @@
 from openai import OpenAI
-from config import Api_key as key
+from config import API_KEY as key
 
 class NoKey(Exception):
     """Custom exception for missing API key."""
