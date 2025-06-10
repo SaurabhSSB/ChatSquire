@@ -25,9 +25,6 @@ ChatSquire/
 ├── requirements.txt # Dependencies
 └── README.md # You're here!
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -38,40 +35,31 @@ Edit
 ```bash
 git clone https://github.com/yourusername/ChatSquire.git
 cd ChatSquire
+
 2. Install Dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
+
 3. Add Your OpenAI API Key
 Edit the config.py file:
 
-python
-Copy
-Edit
 Api_key = "your_openai_api_key_here"
+
 4. Start ChatSquire (Interactive)
-bash
-Copy
-Edit
 python ai_chatbot.py
 You’ll be greeted by the Squire and can begin chatting right away.
 
 5. Use Single Prompt Mode (Demo)
-bash
-Copy
-Edit
 python main.py
 This sends one hardcoded prompt and prints the result.
 
 🧠 Example Session
-bash
-Copy
-Edit
 Assistant: Hi I am available, How may I help you...
 
 User: What are some good Python projects?
 Assistant: Here are a few beginner-friendly Python projects you can try...
+
+
 📝 Docstrings and Code Quality
 Custom exceptions like NoKey for missing API key.
 
@@ -96,8 +84,7 @@ Integrate with speech-to-text APIs.
 
 Let your ideas come to life. ChatSquire is here to serve.
 
-yaml
-Copy
-Edit
 
 ---
+
+Let me know if you'd like a stylized logo (ASCII or image), badge icons (e.g., "Built with OpenAI", "MIT License"), or a GitHub Actions workflow for linting or CI.
